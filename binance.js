@@ -18,7 +18,7 @@ function main() {
         all_trades: [],
         all_balances: [],
         selected_pair: selected_pair(),
-        balance: ko.observable(0),
+        balance: ko.observable(500,000.00),
         btc_balance: ko.observable(0),
         min_trade: ko.observable(0),
         upper_limit: ko.observable(0),
