@@ -179,9 +179,9 @@ function main() {
 
         var base_currency = selected_pair.split("/")[1];
         var holding={
-            "current_amount": 30000,
+            "current_amount": balance,
             "current_usd" : usd_balance,
-            "current_btc" : 1,
+            "current_btc" : btc_balance,
             "amount" : trade_balance,
             "btc" : (base_currency == "USDT") ? trade_btc/usd_to_btc :  trade_btc,
             "usd" : (base_currency == "USDT") ? trade_btc :  trade_btc*usd_to_btc
